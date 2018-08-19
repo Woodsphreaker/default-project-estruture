@@ -1,4 +1,4 @@
-# Default project estruture with espress
+# Default project estruture with express
 
 ### Installing
 
