@@ -3,7 +3,7 @@ const router = express.Router()
 const actions = require('./actions')
 
 /* GET ALL Products */
-router.get('/products', actions.list)
+router.get('/', actions.list)
 
 /* GET One Product */
 router.get('/product/:id', actions.list)
@@ -12,9 +12,9 @@ router.get('/product/:id', actions.list)
 router.post('/product', actions.create)
 
 /* UPDATE One product */
-router.put('/Product/:id', actions.update)
+router.put('/product/:id', actions.update)
 
 /* DELETE One product */
-router.delete('/Product/:id', actions.delete)
+router.delete('/product/:id', actions.delete)
 
 module.exports = router

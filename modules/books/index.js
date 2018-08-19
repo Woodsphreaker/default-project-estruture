@@ -3,7 +3,7 @@ const router = express.Router()
 const actions = require('./actions')
 
 /* GET ALL books */
-router.get('/books', actions.list)
+router.get('/', actions.list)
 
 /* GET One book */
 router.get('/book/:id', actions.list)

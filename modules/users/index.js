@@ -3,7 +3,7 @@ const router = express.Router()
 const actions = require('./actions')
 
 /* GET ALL Users */
-router.get('/users', actions.list)
+router.get('/', actions.list)
 
 /* GET One User */
 router.get('/user/:id', actions.list)
