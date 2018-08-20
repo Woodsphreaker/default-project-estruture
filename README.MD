@@ -14,7 +14,17 @@ just run the npm install
 just run the npm start
 ```
 
-## Example
+## Test routes
+
+```
+GET http://localhost:3000/books
+GET http://localhost:3000/books/book/1
+POST http://localhost:3000/books/book
+PUT http://localhost:3000/books/book/1
+DELETE http://localhost:3000/books/book/1
+```
+
+## Estruture
 
 ```javascript
 helpers
